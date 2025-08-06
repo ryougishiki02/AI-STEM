@@ -20,7 +20,7 @@ This project is designed for processing STEM (Scanning Transmission Electron Mic
 - ✅ Denoising
 - ✅ Drift correction
 
----
+
 
 ##  Installation
 
@@ -30,7 +30,6 @@ Clone the repository:
 git clone https://github.com/ryougishiki02/AI-STEM.git
 cd AI-STEM
 
----
 
 
 ## Recommended Environment
@@ -52,7 +51,7 @@ It is recommended to use the following environment (via `conda`) to ensure compa
   - openpyxl  
 
 You may use `conda` to install and manage these dependencies.
----
+
 
 
 ## Citation
@@ -61,12 +60,11 @@ If you use any code or models from this repository, please cite our paper (You c
 
 Huang, Z.; Li, P.; Hou, Y.; Zhao, P.; Wu, S.; Huang, R.; Zheng, H.; Xing, R.; Jia, S.; Wang, J. Atomistic Phase Transition Mechanism and Its Relationship with the High Thermoelectric Performance in SnSe. Adv. Energy Mater. 2025, e202503674. https://doi.org/10.1002/aenm.202503674
 Huang, Z.; Jiang, R.; Li, P.; Liu, X.; Chen, G.; Zhao, L.; Li, L.; Zhao, P.; Meng, W.; Jia,S.; Zheng, H.; Wang, J. Size and surface-dependent phase transition temperature in Cu2Se nanobridges. Nano Today 2024, 58, 102460
----
+
 
 
 ## Contact
 
 For questions or contributions, please contact:  
 **Ziyang Huang** (huangziyang02@gmail.com)
----
 
