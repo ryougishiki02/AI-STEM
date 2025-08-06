@@ -4,16 +4,16 @@ This project is designed for processing STEM (Scanning Transmission Electron Mic
 
 ---
 
-## 🧠 Features
+## Features
 
-### 🖼️ Image Processing
+###  Image Processing
 - ✅ Background removal
 - ✅ Denoising
 - ✅ Atomic identification
 - ✅ Elemental classification
 - ✅ Strain mapping via Peak Pair Analysis (PPA)
 
-### 🎥 Video Processing
+###  Video Processing
 - ✅ Video cropping
 - ✅ Frame extraction (downsampling)
 - ✅ Background removal
@@ -22,7 +22,7 @@ This project is designed for processing STEM (Scanning Transmission Electron Mic
 
 ---
 
-## 🛠️ Installation
+##  Installation
 
 Clone the repository:
 
