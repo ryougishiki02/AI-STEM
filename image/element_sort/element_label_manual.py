@@ -17,11 +17,11 @@ stride = 6/8
 batch_size = 8
 # periodicity: number of boxes in one row or column; stride: stride of the sliding window;
 # batch_size: batch size for prediction
-denoiser = Prediction(image, periodicity, stride, Unet3(n_classes=1), batch_size)
+denoiser = Prediction(image, periodicity, stride, Unet(n_classes=1), batch_size)
 ori_image, image = denoiser.denoise()
 denoiser.visualize(image)  # 可视化去噪后的图像
 
-segmenter = Prediction(image, periodicity, stride, Unet3(), batch_size)
+segmenter = Prediction(image, periodicity, stride, Unet(), batch_size)
 image, output = segmenter.segment()
 segmenter.visualize(output)  # 可视化分割后的图像
 
@@ -38,4 +38,5 @@ position_detecter.visualize(atoms, save_path = None)
 # 检测元素
 root = tk.Tk()
 app = AtomClassifierUI(root, atoms, ori_image_np, value_key='i_peak')  # or 'i_peak'
+
 root.mainloop()
